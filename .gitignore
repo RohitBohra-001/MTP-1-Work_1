@@ -1,0 +1,22 @@
+# Cached tokenized datasets & HuggingFace caches
+save_for_eval/
+*.pt.cache
+
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Experiment logs & tracking
+*.log
+wandb/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

@@ -1,0 +1,12 @@
+Cross-Dataset Evaluation Results
+Checkpoint : ./checkpoints/tsv_triviaqa.pt
+Model      : llama3.1-8B
+Trained on : triviaqa
+
+Dataset              AUROC
+----------------------------
+tqa                 0.6924
+triviaqa            0.8433
+sciq                0.7904
+nq_open             0.6470
+hotpotqa            0.7712
